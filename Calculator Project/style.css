@@ -1,0 +1,32 @@
+
+.main{
+    background-color: black;
+    height: auto;
+    width: 400px;
+
+}
+input{
+    width: 90%;
+    background-color: transparent;
+    color: white;
+    height: 60px;
+    font-size: 40px;
+    border: none;
+}
+.num{
+    font-size:30px;
+    margin:15px 15px;
+    padding: 15px 22px;
+    background-color: #11235A;
+    color: white;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.sym{
+    background-color:orange;
+}
+.sub{
+    text-align: right;
+}

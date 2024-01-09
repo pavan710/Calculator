@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <center>
+    <div class="main">
+        <input class="sub">
+        <input type="text" class="dis"><br>
+        <button class="num" onclick="cl('1')">1</button>
+        <button class="num" onclick="cl('2')">2</button>
+        <button class="num" onclick="cl('3')">3</button>
+        <button class="num sym" onclick="adding()" >+</button><br>
+        <button class="num" onclick="cl('4')">4</button>
+        <button class="num" onclick="cl('5')">5</button>
+        <button class="num" onclick="cl('6')">6</button>
+        <button class="num sym" onclick="cl('-')">-</button><br>
+        <button class="num" onclick="cl('7')">7</button>
+        <button class="num" onclick="cl('8')">8</button>
+        <button class="num" onclick="cl('9')">9</button>
+        <button class="num sym" onclick="cl('*')">*</button><br>
+        <button class="num" onclick="cl('0')">0</button>
+        <button class="num" onclick="cl('.')">.</button>
+        <button class="num">=</button>
+        <button class="num sym" onclick="cl('/')">/</button><br>
+        <button class="num sym" onclick="ce()">C</button><br>
+
+
+    </div>
+</center>
+    <script src="cal.js"></script>
+</body>
+</html>
